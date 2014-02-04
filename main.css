@@ -29,3 +29,7 @@ h101 {
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
    background-color: #772953;
 }
+
+.footer {
+   padding-bottom: 40px;
+}
