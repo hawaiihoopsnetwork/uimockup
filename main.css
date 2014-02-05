@@ -23,11 +23,11 @@ h101 {
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
-  background-color: #772953;
+  background-color: #DD4814;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-   background-color: #772953;
+   background-color: #DD4814;
 }
 
 .footer {
@@ -43,4 +43,14 @@ h101 {
 .profilepic {
    height: 174px;
    width: 164px;
+}
+
+.navbar-inverse {
+   background-color: #F77E07;
+   border-color: #F77E07;
+}
+
+.well {
+   border-color: #F77E07;
+   background-color: transparent;
 }
