@@ -66,3 +66,7 @@ h101 {
 #day {
    margin-right: 6px;
 }
+
+#login .modal-dialog {
+   width: 500px;
+}
