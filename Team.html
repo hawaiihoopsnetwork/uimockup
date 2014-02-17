@@ -34,10 +34,10 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a href="index.html">Home</a></li>
-          <li><a href="gym.html">Gyms</a></li>
-          <li><a href="Games.html">Games</a></li>
+          <li><a href="gym.html">Gyms</a></li>      
+          <li><a href="Games.html">Games</a></li>   
           <li><a href="#">Leagues</a></li>
-          <li><a href="Teams.html">Teams</a></li>
+          <li><a href="Teams.html">Team</a></li>
           <li><a href="playerProfile.html">Player Profiles</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -47,7 +47,7 @@
     </div>
   </div>
   </div>
-
+  
     <div id="login" class="modal fade">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -56,24 +56,24 @@
         <h4 class="modal-title">Login</h4>
       </div>
       <div class="modal-body">
-
+          
     <label class="col-sm-2 control-label">Username</label>
     <div class="col-sm-10">
-      <input type="text"
+      <input type="text" 
              class="form-control"
-             name="User Name"
+             name="User Name" 
              placeholder="username" />
-
+       
     </div>
     </br>
     </br>
     <label class="col-sm-2 control-label">Password</label>
     <div class="col-sm-10">
-      <input type="password"
+      <input type="password" 
              class="form-control"
-             name="Password"
+             name="Password" 
              placeholder="password" />
-
+       
     </div>
     </br>
       </div>
@@ -84,118 +84,92 @@
     </div>
   </div>
 </div>
-
-
+  
+  
   <div class="container">
-  <h4>Team #1</h4>
-    <row>
-      <div class="col-md-3">
-        <div class="well">
-          <h4>Schedule</h4>
-            <li><i>2/10: </i><a href="games/Game1.html">Game 1</a></li>
-            <li><i>2/10: </i><a href="games/Game2.html">Game 2</a></li>
-            <li><i>2/10: </i><a href="games/Game3.html">Game 3</a></li>
-            <li><i>2/10: </i><a href="games/Game4.html">Game 4</a></li>
-            <li><i>2/10: </i><a href="games/Game5.html">Game 5</a></li>
-            <div class="divider"></br></div>
-
-          <h4>Standings & Stats: </h4>
-            <i>Record: </i>14-10</br>
-            40% 3pts  <br>
-            85% 2pts  <br>
-            90% 1pt  <br>
-            98 rebounds  <br>
-            56 steals  <br>
-            43 blocks  <br>
-        </div>
+   <div class="well">
+   <h4>Team #1</h4>
+      <div class="row">
+      <div class="col-md-3 hidden-xs">
+      <ul class="nav nav-tabs nav-stacked" data-tabs="tabs">
+         <li class="active"><a href="#stats" data-toggle="tab">Stats</a></li>
+         <li><a href="#profiles" data-toggle="tab">Roster</a></li>
+         <li><a href="#media" data-toggle="tab">Media</a></li>
+         <li><a href="#reviews" data-toggle="tab">Comments</a></li>
+      </ul>
       </div>
-      <div class="col-md-6">
-        <div class="well">
-
-            <div id="myTabContent" class="tab-content">
-                <div id="pics">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img src="http://cbsphilly.files.wordpress.com/2012/04/basketballsunset.jpg" alt="...">
-                                <div class="carousel-caption">
-                                    Late night practice
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <img src="http://img.groundspeak.com/waymarking/display/3fec022a-8674-4339-a8e5-ced0e26aec21.JPG" alt="...">
-                                <div class="carousel-caption">
-                                    Big turnout
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <img src="http://wac.450f.edgecastcdn.net/80450F/wyopreps.com/files/2011/12/Basketball-Net-Whistle.jpg" alt="...">
-                                <div class="carousel-caption">
-                                    New ball!
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                        </a>
-                    </div>
-                </div>
-
-                <div id="comments">
-                    <h4>This team is: </h4>
-                    <li>Really Good</li>
-                    <li>Competitive</li>
-                    <li>Friendly</li>
-                </div>
+      
+       <div class="col-md-3 visible-xs">
+      <ul class="nav nav-tabs" data-tabs="tabs">
+         <li class="active"><a href="#stats" data-toggle="tab">Stats</a></li>
+         <li><a href="#profiles" data-toggle="tab">Roster</a></li>
+         <li><a href="#media" data-toggle="tab">Media</a></li>
+         <li><a href="#reviews" data-toggle="tab">Comments</a></li>
+      </ul>
+      </div>
+      
+      <div class="col-md-9">
+      <div class="tab-content">
+            <div class="tab-pane fade in active" id="stats">
+               <img src="img/no-available-image.png" height="40%" width="40%">
+               <h4>Standings & Stats: </h4>
+                  <i>Record: </i>14-10</br>
+                     40% 3pts  <br>
+                     85% 2pts  <br>
+                     90% 1pt  <br>
+                     98 rebounds  <br>
+                     56 steals  <br>
+                     43 blocks  <br>
             </div>
-
-
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="well">
-          <button type="button" class="btn btn-primary btn-sm btn-block">Join</button>
-            <h4>Player Profiles: </h4>
-            <li><a href="#">Mo Hawn</a></li>
-            <li><a href="#">Finley Heath</a></li>
-            <li><a href="#">Ariel Henson</a></li>
-            <li><a href="#">Jordan Russel</a></li>
-            <li><a href="#">Mattie Paris</a></li>
-            <li><a href="#">Murphey Tyrell</a></li>
-            <li><a href="#">Mo Hawn</a></li>
-            <li><a href="#">Finley Heath</a></li>
-            <li><a href="#">Ariel Henson</a></li>
-            <li><a href="#">Jordan Russel</a></li>
-            <li><a href="#">Mattie Paris</a></li>
-            <li><a href="#">Murphey Tyrell</a></li>
-            <li><a href="#">Mo Hawn</a></li>
-            <li><a href="#">Finley Heath</a></li>
-            <li><a href="#">Ariel Henson</a></li>
-            <li><a href="#">Jordan Russel</a></li>
-            <li><a href="#">Mattie Paris</a></li>
-            <li><a href="#">Murphey Tyrell</a></li>
-        </div>
+            <div class="tab-pane fade" id="profiles">
+               <h4>Player Profiles: </h4>
+                  <img src="img/no-available-image.png" height="20%" width="20%">
+                  <h4><a href="#">Mo Hawn</a></h4>
+                  <img src="img/no-available-image.png" height="20%" width="20%">
+                  <h4><a href="#">Finley Heath</a></h4>
+                  <img src="img/no-available-image.png" height="20%" width="20%">
+                  <h4><a href="#">Ariel Henson</a></h4>
+                  <img src="img/no-available-image.png" height="20%" width="20%">
+                  <h4><a href="#">Jordan Russel</a><h4>
+                  <img src="img/no-available-image.png" height="20%" width="20%">
+                  <h4><a href="#">Mattie Paris</a><h4>
+                  <img src="img/no-available-image.png" height="20%" width="20%">
+                  <h4><a href="#">Murphey Tyrell</a><h4>
+            </div>
+            <div class="tab-pane fade" id="media">
+               <h4>Pictures and Videos</h4>
+                There are no images or videos for this team.</br>
+                </br>
+                </br>
+                <a href="#">Add Pictures or Videos of this team</a>
+            </div>
+            <div class="tab-pane fade" id="reviews">
+               <h4>Comments about This Team: </h4>
+                  <li>Really Good.</li>
+                  <li>Competitive.</li>
+                  
+                  </br>
+                  </br>
+                  <hr>
+                  <label class="control-label">Add a comment: </label>
+                    
+                        <textarea class="form-control"
+                                    rows="5" 
+                                    placeholder="Comments about this team."></textarea>
+                    
+                     <div class="form-group">
+                    <div class="col-sm-offset-6 col-sm-2">
+                     </br>
+                    <button type="submit" class="btn btn-default">Add Comment</button>
+                 </div>  
+              </div>
+            </div>
+         </div>
       </div>
     </div>
-</div>
-
+    </div>
+    </div>
+          
   <div class="container">
   <hr>
     <div class="footer">
@@ -208,6 +182,6 @@
   <!-- Load Bootstrap JavaScript components. HTMLUnit (used in testing) requires JQuery 1.8.3 or below). -->
   <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-
+      
 </body>
 </html>
