@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96b2b784-9b38-4e06-b3d5-2cb0626cfb86" name="Default" comment="added images for end-to-end use cases&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Teams.html" afterPath="$PROJECT_DIR$/Teams.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NavBar.html" afterPath="$PROJECT_DIR$/NavBar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playerProfiles.html" afterPath="$PROJECT_DIR$/playerProfiles.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="uimockup.iws" />
@@ -72,25 +72,34 @@
       <file leaf-file-name="Teams.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Teams.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="0" selection-end="6798" vertical-scroll-proportion="-14.375" vertical-offset="675" max-vertical-offset="2940">
+            <state line="68" column="0" selection-start="0" selection-end="6798" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="2940">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playerProfiles.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="playerProfiles.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playerProfiles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="32" selection-start="5207" selection-end="5207" vertical-scroll-proportion="1.5653267" vertical-offset="1432" max-vertical-offset="2925">
+            <state line="137" column="32" selection-start="5207" selection-end="5207" vertical-scroll-proportion="-38.75" vertical-offset="1125" max-vertical-offset="2925">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NavBar.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NavBar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="8" selection-start="867" selection-end="1999" vertical-scroll-proportion="-15.333333" vertical-offset="352" max-vertical-offset="1680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="10" selection-start="0" selection-end="7356" vertical-scroll-proportion="-10.166667" vertical-offset="476" max-vertical-offset="2820">
+            <state line="45" column="37" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.64935064" vertical-offset="425" max-vertical-offset="2835">
               <folding />
             </state>
           </provider>
@@ -99,7 +108,7 @@
       <file leaf-file-name="Team.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="38" selection-start="3587" selection-end="3587" vertical-scroll-proportion="-12.083333" vertical-offset="1225" max-vertical-offset="3270">
+            <state line="86" column="2" selection-start="3042" selection-end="3042" vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="2880">
               <folding />
             </state>
           </provider>
@@ -119,7 +128,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Games.html" />
-        <option value="$PROJECT_DIR$/NavBar.html" />
         <option value="$PROJECT_DIR$/About.html" />
         <option value="$PROJECT_DIR$/Contact.html" />
         <option value="$PROJECT_DIR$/createProfile.html" />
@@ -135,13 +143,14 @@
         <option value="$PROJECT_DIR$/Team.html" />
         <option value="$PROJECT_DIR$/Teams.html" />
         <option value="$PROJECT_DIR$/playerProfiles.html" />
+        <option value="$PROJECT_DIR$/NavBar.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
-    <option name="y" value="29" />
+    <option name="y" value="22" />
     <option name="width" value="1260" />
     <option name="height" value="760" />
   </component>
@@ -173,8 +182,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -454,18 +463,19 @@
       <updated>1392606838450</updated>
       <workItem from="1392606839962" duration="5612000" />
       <workItem from="1392613254859" duration="1448000" />
+      <workItem from="1392615721853" duration="476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7060000" />
+    <option name="totallyTimeSpent" value="7536000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="29" width="1260" height="760" extended-state="0" />
+    <frame x="10" y="22" width="1260" height="760" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -482,7 +492,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -510,6 +520,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Teams.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="0" selection-end="6798" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="2940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playerProfiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="32" selection-start="5207" selection-end="5207" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="2925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="10" selection-start="0" selection-end="7356" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="38" selection-start="3587" selection-end="3587" vertical-scroll-proportion="0.0" vertical-offset="1515" max-vertical-offset="3270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teams.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="10" selection-start="2808" selection-end="2808" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2925">
           <folding />
         </state>
@@ -518,11 +556,6 @@
     <entry file="file://$PROJECT_DIR$/Games.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="40" selection-start="0" selection-end="6119" vertical-scroll-proportion="0.50970876" vertical-offset="300" max-vertical-offset="2700" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NavBar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="40" selection-start="0" selection-end="3750" vertical-scroll-proportion="0.5825243" vertical-offset="225" max-vertical-offset="1665" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/createProfile.html">
@@ -537,9 +570,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playerProfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="40" selection-start="0" selection-end="5319" vertical-scroll-proportion="0.6446281" vertical-offset="210" max-vertical-offset="2550">
-          <folding />
-        </state>
+        <state line="40" column="40" selection-start="0" selection-end="5319" vertical-scroll-proportion="0.6446281" vertical-offset="210" max-vertical-offset="2550" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TermsOfUse.html">
@@ -579,42 +610,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/About.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="12" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.54545456" vertical-offset="345" max-vertical-offset="1710">
-          <folding />
-        </state>
+        <state line="45" column="12" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.54545456" vertical-offset="345" max-vertical-offset="1710" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gym.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="991" selection-end="991" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="4125">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="991" selection-end="991" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="4125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Teams.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="0" selection-end="6798" vertical-scroll-proportion="-14.375" vertical-offset="675" max-vertical-offset="2940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="10" selection-start="0" selection-end="7356" vertical-scroll-proportion="-10.166667" vertical-offset="476" max-vertical-offset="2820">
+        <state line="68" column="0" selection-start="0" selection-end="6798" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="2940">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="38" selection-start="3587" selection-end="3587" vertical-scroll-proportion="-12.083333" vertical-offset="1225" max-vertical-offset="3270">
+        <state line="86" column="2" selection-start="3042" selection-end="3042" vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="2880">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/playerProfiles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="32" selection-start="5207" selection-end="5207" vertical-scroll-proportion="1.5653267" vertical-offset="1432" max-vertical-offset="2925">
+        <state line="137" column="32" selection-start="5207" selection-end="5207" vertical-scroll-proportion="-38.75" vertical-offset="1125" max-vertical-offset="2925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NavBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="8" selection-start="867" selection-end="1999" vertical-scroll-proportion="-15.333333" vertical-offset="352" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="37" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.64935064" vertical-offset="425" max-vertical-offset="2835">
           <folding />
         </state>
       </provider>
