@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96b2b784-9b38-4e06-b3d5-2cb0626cfb86" name="Default" comment="added images for end-to-end use cases&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playerProfile.html" afterPath="$PROJECT_DIR$/playerProfile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playerProfiles.html" afterPath="$PROJECT_DIR$/playerProfiles.html" />
     </list>
     <ignored path="uimockup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,55 +66,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="playerProfile.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/playerProfile.html">
+      <file leaf-file-name="playerProfiles.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playerProfiles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="21" selection-start="0" selection-end="10930" vertical-scroll-proportion="0.25619835" vertical-offset="1885" max-vertical-offset="4380">
+            <state line="121" column="17" selection-start="0" selection-end="7383" vertical-scroll-proportion="0.3446602" vertical-offset="1602" max-vertical-offset="3030">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Games.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Games.html">
+      <file leaf-file-name="createProfile.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/createProfile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="11" selection-start="3311" selection-end="5461" vertical-scroll-proportion="-47.416668" vertical-offset="1187" max-vertical-offset="2715">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="601" max-vertical-offset="1230">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Team.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Team.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="38" selection-start="4453" selection-end="4453" vertical-scroll-proportion="10.0" vertical-offset="2040" max-vertical-offset="2895">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="18" selection-start="3934" selection-end="6082" vertical-scroll-proportion="-22.291666" vertical-offset="1685" max-vertical-offset="2835">
+            <state line="12" column="70" selection-start="520" selection-end="520" vertical-scroll-proportion="66.25" vertical-offset="1770" max-vertical-offset="4290">
               <folding />
             </state>
           </provider>
@@ -147,12 +110,12 @@
         <option value="$PROJECT_DIR$/games/Game5.html" />
         <option value="$PROJECT_DIR$/Team.html" />
         <option value="$PROJECT_DIR$/Teams.html" />
-        <option value="$PROJECT_DIR$/playerProfiles.html" />
         <option value="$PROJECT_DIR$/NavBar.html" />
         <option value="$PROJECT_DIR$/createProfile.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/playerProfile.html" />
+        <option value="$PROJECT_DIR$/playerProfiles.html" />
       </list>
     </option>
   </component>
@@ -475,16 +438,16 @@
       <workItem from="1392616710850" duration="182000" />
       <workItem from="1392617108689" duration="1134000" />
       <workItem from="1392673993892" duration="67000" />
-      <workItem from="1392674370372" duration="4772000" />
+      <workItem from="1392674370372" duration="5670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13691000" />
+    <option name="totallyTimeSpent" value="14589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1260" height="760" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -504,7 +467,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -784,23 +747,9 @@
         <state line="45" column="12" selection-start="1923" selection-end="1923" vertical-scroll-proportion="0.54545456" vertical-offset="345" max-vertical-offset="1710" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createProfile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="70" selection-start="526" selection-end="526" vertical-scroll-proportion="0.12135922" vertical-offset="105" max-vertical-offset="4290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NavBar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="8" selection-start="867" selection-end="1999" vertical-scroll-proportion="0.59546924" vertical-offset="352" max-vertical-offset="1680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playerProfiles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="32" selection-start="5292" selection-end="5292" vertical-scroll-proportion="0.0" vertical-offset="2070" max-vertical-offset="2940">
           <folding />
         </state>
       </provider>
@@ -857,6 +806,20 @@
     <entry file="file://$PROJECT_DIR$/playerProfile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="136" column="21" selection-start="0" selection-end="10930" vertical-scroll-proportion="0.25619835" vertical-offset="1885" max-vertical-offset="4380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="70" selection-start="520" selection-end="520" vertical-scroll-proportion="66.25" vertical-offset="1770" max-vertical-offset="4290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playerProfiles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="17" selection-start="0" selection-end="7383" vertical-scroll-proportion="0.3446602" vertical-offset="1602" max-vertical-offset="3030">
           <folding />
         </state>
       </provider>
