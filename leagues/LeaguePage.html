@@ -9,16 +9,17 @@
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/united/bootstrap.min.css">
 
 <!--  Load site-specific customizations after bootstrap. -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="../main.css">
+<link rel="shortcut icon" type="image/jpg" href="images/basketball.jpg">
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
-<![endif]-->
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+        <![endif]-->
 
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald|Open+Sans">
-<Title>HawaiiHoopsNetwork</Title>
+<Title>Your League - HawaiiHoopsNetwork</Title>
 
 <style type="text/css">
 /* Styling for the title (Month and Year) of the calendar */
@@ -77,25 +78,75 @@ th.month {
 </style>
 </head>
 <body>
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+  <div class="header-image"></div>
+
+  <div class="navbar navbar-inverse" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <!--  Display three horizontal lines when navbar collapsed. -->
           <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">HawaiiHoopsNetwork</a>
+        <a class="navbar-brand" href="index.html">HiHoopsNetwork</a>
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#">Pick-up games</a></li>
-          <li><a href="#">Leagues</a></li>
-          <li><a href="#">Gyms</a></li>
-          <li><a href="#">Sign in</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../gym.html">Gyms</a></li>      
+          <li><a href="../Games.html">Games</a></li>   
+          <li><a href="../LeaguesList.html">Leagues</a></li>
+          <li><a href="../Teams.html">Teams</a></li>
+          <li><a href="../playerProfiles.html">Player Profiles</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+         <li><a data-toggle="modal" href="#login">Login</a></li>
+         <li><a href="../createProfile.html">Register</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="row">
+  </div>
+  
+    <div id="login" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Login</h4>
+      </div>
+      <div class="modal-body">
+          
+    <label class="col-sm-2 control-label">Username</label>
+    <div class="col-sm-10">
+      <input type="text" 
+             class="form-control"
+             name="User Name" 
+             placeholder="username" />
+       
+    </div>
+    </br>
+    </br>
+    <label class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" 
+             class="form-control"
+             name="Password" 
+             placeholder="password" />
+       
+    </div>
+    </br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <a href="#" type="button" class="btn btn-success">Login</a>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <div class="container">
+   <div class="row">
     <div class="col-md-8">
       <div class="well">
         <div class="title">February 2014</div>
@@ -114,10 +165,8 @@ th.month {
     </div>
     <div class="col-md-4">
       <div class="well">
-        <a href = "#" type="button" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        Join as a Team&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href = "#" type="button" class="btn btn-primary">
+        Join as a Team</a>
       </div>
     </div>
     <div class="col-offset-8 col-md-4">
@@ -125,8 +174,8 @@ th.month {
         <h1>Teams</h1>
         <table border="1">
         
-        <tr><td><span><img src="img\blazerslogo.jpg" width=100></span><a href = "#"><span>Portland TrailBlazers</span></a></td></tr>
-        <tr><td><span><img src="img\GSLogo.jpg" width=100></span><a href = "#"><span>Golden State Warriors</span></a></td></tr>
+        <tr><td><span><img src="..\img\blazerslogo.jpg" width=100></span><a href = "#"><span>Portland TrailBlazers</span></a></td></tr>
+        <tr><td><span><img src="..\img\GSLogo.jpg" width=100></span><a href = "#"><span>Golden State Warriors</span></a></td></tr>
         </table>
       </div>
     </div>
@@ -153,7 +202,7 @@ th.month {
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="img\Basketball_League_300x.JPG" width=300>
+              <img src="..\img\Basketball_League_300x.JPG" width=300>
               <div class="carousel-caption">
                 
               </div>
@@ -174,7 +223,19 @@ th.month {
       </div>
     </div>
   </div>
-  <script src="http://code.jquery.com/jquery.min.js"></script>
+  </div>
+  
+  <div class="container">
+  <hr>
+    <div class="footer">
+      <h100><span class="glyphicon glyphicon-copyright-mark"></span> 2014 Hawaii Hoops Network</h100>
+      <a href="TermsOfUse.html"><h101>Terms & Conditions</h101></a>
+      <a href="Contact.html"><h101>Contact</h101></a>
+      <a href="About.html"><h101>About</h101></a>
+    </div>
+  </div>
+  <!-- Load Bootstrap JavaScript components. HTMLUnit (used in testing) requires JQuery 1.8.3 or below). -->
+  <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
 </body>

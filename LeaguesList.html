@@ -3,7 +3,7 @@
 
 <html>
 <head>
-<title>About - Hawaii Hoops Network</title>
+<title>Leagues List - Hawaii Hoops Network</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/united/bootstrap.min.css">
 
@@ -36,7 +36,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="gym.html">Gyms</a></li>      
           <li><a href="Games.html">Games</a></li>   
-          <li><a href="LeaguesList.html">Leagues</a></li>
+          <li><a href="#">Leagues</a></li>
           <li><a href="Teams.html">Teams</a></li>
           <li><a href="playerProfiles.html">Player Profiles</a></li>
         </ul>
@@ -87,10 +87,51 @@
 </div>
   
   <div class="container">
-   <div class="container">
-<h1>About Us</h1>
-Hawaii Hoops Network's mission is to connect all basketball players, teams, and leagues on the island of Oahu! Get information on leagues, open gyms, pick up games, and network with players and teams in your area! Register for leagues online. #MOVE
-</div>
+   <div class="container well">
+  <!-- Rows are clickable -->
+   <table class="table table-striped table-hover">
+      <thead>
+         <tr>
+            <th>League Name</th>
+            <th>Location</th>
+            <th>Dates</th>
+            <th>Cost</th>
+            <th class="hidden-xs">Sex</th>
+            <th class="hidden-xs">Type</th>
+            <th class="hidden-xs">Spaces Available</th>
+         </tr>
+      </thead>
+      <tbody data-link="row" class="rowlink">
+         <tr>
+            <td><a id="noColor" href="leagues/LeaguePage.html">Men's Rec League</a></td>
+            <td>Kaimuki Community Park</td>
+            <td>3/1/14 - 5/1/14</td>
+            <td>$300 per team</td>
+            <td class="hidden-xs">M</td>
+            <td class="hidden-xs">Public</td>
+            <td class="hidden-xs">1 of 10</td>
+         </tr>
+         <tr>
+            <td><a id="noColor" href="leagues/LeaguePage.html">Co-Ed Rec League</a></td>
+            <td>Stan Sherrif Center</td>
+            <td>2/15/14 - 4/15/14</td>
+            <td>$500 per team</td>
+            <td class="hidden-xs">Co-Ed</td>
+            <td class="hidden-xs">Private</td>
+            <td class="hidden-xs">0 of 10</td>
+         </tr>
+         <tr>
+            <td><a id="noColor" href="leagues/LeaguePage.html">Women's Rec League</a></td>
+            <td>Kahala Community Park</td>
+            <td>3/14/14 - 5/14-14</td>
+            <td>$200 per team</td>
+            <td class="hidden-xs">W</td>
+            <td class="hidden-xs">Public</td>
+            <td class="hidden-xs">3 of 10</td>
+         </tr>
+      </tbody>
+   </table>
+  </div>
   </div>
   
   <div class="container">
@@ -99,12 +140,15 @@ Hawaii Hoops Network's mission is to connect all basketball players, teams, and 
       <h100><span class="glyphicon glyphicon-copyright-mark"></span> 2014 Hawaii Hoops Network</h100>
       <a href="TermsOfUse.html"><h101>Terms & Conditions</h101></a>
       <a href="Contact.html"><h101>Contact</h101></a>
-      <a href="#"><h101>About</h101></a>
+      <a href="About.html"><h101>About</h101></a>
     </div>
   </div>
   <!-- Load Bootstrap JavaScript components. HTMLUnit (used in testing) requires JQuery 1.8.3 or below). -->
   <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  
+  <!-- Makes rows clickable -->
+  <script src="js/rowlink.js"></script>
       
 </body>
 </html>
