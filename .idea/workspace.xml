@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96b2b784-9b38-4e06-b3d5-2cb0626cfb86" name="Default" comment="added images for end-to-end use cases&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/players/gino.html" afterPath="$PROJECT_DIR$/players/gino.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playerProfiles.html" afterPath="$PROJECT_DIR$/playerProfiles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/players/russel.html" afterPath="$PROJECT_DIR$/players/russel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="uimockup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,10 +66,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="playerProfiles.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="playerProfiles.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playerProfiles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="39" selection-start="0" selection-end="9961" vertical-scroll-proportion="0.41291586" vertical-offset="1889" max-vertical-offset="4065">
+            <state line="140" column="39" selection-start="0" selection-end="9961" vertical-scroll-proportion="-8.791667" vertical-offset="1889" max-vertical-offset="4065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="134" column="56" selection-start="0" selection-end="7451" vertical-scroll-proportion="0.851272" vertical-offset="1575" max-vertical-offset="2835">
               <folding />
             </state>
           </provider>
@@ -122,7 +129,6 @@
         <option value="$PROJECT_DIR$/Team.html" />
         <option value="$PROJECT_DIR$/NavBar.html" />
         <option value="$PROJECT_DIR$/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/createProfile.html" />
         <option value="$PROJECT_DIR$/Teams.html" />
         <option value="$PROJECT_DIR$/playerProfile.html" />
@@ -135,6 +141,7 @@
         <option value="$PROJECT_DIR$/players/russel.html" />
         <option value="$PROJECT_DIR$/players/gino.html" />
         <option value="$PROJECT_DIR$/playerProfiles.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -189,20 +196,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="uimockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uimockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uimockup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="players" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,12 +486,12 @@
       <workItem from="1392674370372" duration="5887000" />
       <workItem from="1392795710469" duration="1604000" />
       <workItem from="1392797503573" duration="1758000" />
-      <workItem from="1392864283704" duration="901000" />
+      <workItem from="1392864283704" duration="1067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19069000" />
+    <option name="totallyTimeSpent" value="19235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="22" width="1042" height="668" extended-state="0" />
@@ -804,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="67" selection-start="739" selection-end="739" vertical-scroll-proportion="-1.3681592" vertical-offset="1080" max-vertical-offset="2835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/createProfile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="12" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.46266234" vertical-offset="375" max-vertical-offset="4290">
@@ -897,7 +883,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playerProfiles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="39" selection-start="0" selection-end="9961" vertical-scroll-proportion="0.41291586" vertical-offset="1889" max-vertical-offset="4065">
+        <state line="140" column="39" selection-start="0" selection-end="9961" vertical-scroll-proportion="-8.791667" vertical-offset="1889" max-vertical-offset="4065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="56" selection-start="0" selection-end="7451" vertical-scroll-proportion="0.851272" vertical-offset="1575" max-vertical-offset="2835">
           <folding />
         </state>
       </provider>
