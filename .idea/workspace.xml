@@ -69,7 +69,7 @@
       <file leaf-file-name="playerProfiles.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playerProfiles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="36" selection-start="5615" selection-end="5615" vertical-scroll-proportion="0.47162426" vertical-offset="1889" max-vertical-offset="4065">
+            <state line="88" column="10" selection-start="3621" selection-end="3621" vertical-scroll-proportion="0.23679061" vertical-offset="1199" max-vertical-offset="4065">
               <folding />
             </state>
           </provider>
@@ -486,16 +486,16 @@
       <workItem from="1392674370372" duration="5887000" />
       <workItem from="1392795710469" duration="1604000" />
       <workItem from="1392797503573" duration="1758000" />
-      <workItem from="1392864283704" duration="1256000" />
+      <workItem from="1392864283704" duration="1404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19424000" />
+    <option name="totallyTimeSpent" value="19572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="22" width="1042" height="668" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -515,7 +515,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -890,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playerProfiles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="36" selection-start="5615" selection-end="5615" vertical-scroll-proportion="0.47162426" vertical-offset="1889" max-vertical-offset="4065">
+        <state line="88" column="10" selection-start="3621" selection-end="3621" vertical-scroll-proportion="0.23679061" vertical-offset="1199" max-vertical-offset="4065">
           <folding />
         </state>
       </provider>
