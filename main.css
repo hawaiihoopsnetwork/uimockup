@@ -4,6 +4,13 @@
    height: 174px;
 }
 
+body
+{
+   background-image: url('images/bball.jpg');
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
 .form-control2 {
    margin-top: 10px;
    width: 140px;
@@ -23,7 +30,7 @@ h101 {
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
-  background-color: #DD4814;
+   background-color: #DD4814;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
@@ -52,7 +59,7 @@ h101 {
 
 .well {
    border-color: #F77E07;
-   background-color: transparent;
+    background-color: #FFFAF6;
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
@@ -74,3 +81,4 @@ h101 {
     width: 400px;
     height: 300px
 }
+
