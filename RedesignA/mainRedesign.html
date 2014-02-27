@@ -1,0 +1,254 @@
+<!DOCTYPE <html>
+
+<html>
+<head>
+    <title>Home - Hawaii Hoops Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/united/bootstrap.min.css">
+
+
+    <!--  Load site-specific customizations after bootstrap. -->
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="shortcut icon" type="image/jpg" href="../images/basketball.jpg">
+
+    <style>
+
+body {
+   margin-top: 70px;
+}
+
+.footerSurround {
+   background-color: #F7F2E0;
+}
+
+.navbar-input-group {
+  font-size: 0px; /*removes whitespace between button and input*/
+}
+
+.navbar-input-group input {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 350px;
+  height: 36px;
+}
+.navbar-input-group .btn {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 0px;
+  height: 36px;
+  margin-bottom: 3px;
+}
+
+
+.navbar-brand {
+   padding: 0px;
+}
+
+.header-image {
+   background-image: url(../images/HawaiiHoopsNetworkLogo.jpg);
+   background-repeat: no-repeat;
+   height: 174px;
+   width: 240px;
+}
+
+hr {
+   margin: 5px;
+}
+
+
+</style>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+<div class="container">
+  
+
+  <!-- Responsive navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <!--  Display three horizontal lines when navbar collapsed. -->
+          <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+        </button>
+       <a class="navbar-brand" href="../index.html"><img src="../images/NavLogo2.png" height="50px" width="150px"></a> 
+      </div>
+      <ul class="nav navbar-nav">
+      <li>
+     <form class="navbar-form navbar-left navbar-input-group hidden-xs" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search for Players, Teams, Leagues, and Gyms">
+  </div>
+  <button type="submit" class="btn btn-default glyphicon glyphicon-search"></button>
+</form>
+      </li>
+      <li><a class="hidden-xs" href="GamesResign.html">Games</a></li>
+      </ul>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Find<b class="caret"></b></a>
+         <ul class="dropdown-menu" role="menu">
+          <li><a href="../gym.html">Gyms</a></li>      
+          <li><a class="visible-xs" href="GamesRedesign.html">Games</a></li>
+          <li><a href="../LeaguesList.html">Leagues</a></li>
+          <li><a href="../Teams.html">Teams</a></li>
+          <li><a href="../playerProfiles.html">Player Profiles</a></li>
+          </ul>
+        </ul>
+        
+      <ul class="nav navbar-nav navbar-right">
+         <li><a data-toggle="modal" href="#login">Login</a></li>
+         <li><a href="../createProfile.html">Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="login" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Login</h4>
+      </div>
+      <div class="modal-body">
+          
+    <label class="col-sm-2 control-label">Username</label>
+    <div class="col-sm-10">
+      <input type="text" 
+             class="form-control"
+             name="User Name" 
+             placeholder="username" />
+       
+    </div>
+    </br>
+    </br>
+    <label class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" 
+             class="form-control"
+             name="Password" 
+             placeholder="password" />
+       
+    </div>
+    </br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <a href="main2.html" type="button" class="btn btn-success">Login</a>
+        <a href="createProfile.html" type="button" class="btn btn-success">Create</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+        <div class="header-image"></div>
+            <div class="well">
+                <button type="button" class="btn btn-primary btn-sm">Create Game</button></br>
+                <hr>
+                <button type="button" class="btn btn-default btn-sm">Skill</button>
+                <button type="button" class="btn btn-default btn-sm">Time</button>
+                <button type="button" class="btn btn-default btn-sm">Location</button>
+                <h4>Upcoming Games</h4>
+                <ul class="list">
+                    <li><a href="../games/Game1.html">Game 1</a></li>
+                    <li><a href="../games/Game2.html">Game 2</a></li>
+                    <li><a href="../games/Game3.html">Game 3</a></li>
+                    <li><a href="../games/Game4.html">Game 4</a></li>
+                    <li><a href="../games/Game4.html">Game 5</a></li>
+                    <li>Kapolei Park 10:00</li>
+                    <li>Kaimuki Park 10:30</li>
+                    <li>Makakilo Park 10:45</li>
+                    <li>Waimalu Park 10:45</li>
+                    <li>Kapolei Park 11:00</li>
+                
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="col-md-6 hidden-xs">
+            <div class="well">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="../img/KapaolonoPark.jpg" alt="...">
+                            <div class="carousel-caption">
+                                Kapaolono Community Park
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="../img/MoanaluaPark.jpg" alt="...">
+                            <div class="carousel-caption">
+                                Moanalua Community Park
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="../img/SaltLakePark.jpg" alt="...">
+                            <div class="carousel-caption">
+                                Salt Lake Community Park
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="well">
+            <a class="twitter-timeline" href="https://twitter.com/HI_hoopsnetwork" data-widget-id="431542023116427264">Tweets by @HI_hoopsnetwork</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footerSurround">
+<div class="container">
+    <hr>
+    <div class="footer">
+        <h100><span class="glyphicon glyphicon-copyright-mark"></span> 2014 Hawaii Hoops Network</h100>
+        <a href="../TermsOfUse.html"><h101>Terms & Conditions</h101></a>
+        <a href="../Contact.html"><h101>Contact</h101></a>
+        <a href="../About.html"><h101>About</h101></a>
+    </div>
+</div>
+</div>
+<!-- Load Bootstrap JavaScript components. HTMLUnit (used in testing) requires JQuery 1.8.3 or below). -->
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
