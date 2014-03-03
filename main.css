@@ -52,7 +52,7 @@ h101 {
 
 .well {
    border-color: #F77E07;
-   background-color: transparent;
+   background-color: #FFFAF5;
 }
 
 .table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
