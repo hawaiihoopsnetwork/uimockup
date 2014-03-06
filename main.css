@@ -59,6 +59,11 @@ h101 {
    color: #F77E07;
 }
 
+.row-search {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #noColor {
    color: black;
 }
