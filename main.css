@@ -79,3 +79,7 @@ h101 {
     width: 400px;
     height: 300px
 }
+
+span:hover{
+    color: #F77E07;
+}
